@@ -24,7 +24,7 @@ h1{
     border-width:2px;
     justify-content: space-between;
     box-shadow: 6px 6px 10px rgb(0, 0, 0);
-    
+    margin-bottom: 20px;
 }
 
 h2{
@@ -52,13 +52,16 @@ ul{
 }
 
 .Vitamin-kepek{
-
-}
-
-img{
-    border-radius: 50%;
     float: right;
     position: relative;
     top: 50%;
-    transform: translateY(-150%);
+    transform: translateY(-110%);
+    border-radius: 35%;
+}
+
+img{
+    border-radius: 35%;
+    border-color: #3a1101;
+    border-width: 2px;
+    border-style:solid;
 }
